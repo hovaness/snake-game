@@ -1,3 +1,9 @@
 .field{
-    background-color: chocolate;
+    background-color: rgba(174, 141, 226, 0.89);
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
 }

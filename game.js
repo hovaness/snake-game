@@ -2,7 +2,7 @@ const BLOCK_SIZE = 15; // ширина и высота клетки в пикс�
 const FIELD_WIDTH = 20; // ширина игрового поля в клетках(гор.)
 const FIELD_HEIGHT = 17; // ширина игрового поля в клетках(верт.)
 const SNAKE_COLOR = "aqua";
-const APPLE_COLOR = "red";
+const APPLE_COLOR = "green";
 let DIRECTION = null;
 let SPEED = 500;
 
@@ -76,9 +76,7 @@ function outOfBorder(x, y) {
     else return false;
 }
 
-function name(x,y){
-    
-}
+
 
 drawSnake();
 drawApple();
