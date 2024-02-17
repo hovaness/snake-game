@@ -1,6 +1,9 @@
 .field{
-    background-color: rgba(174, 141, 226, 0.89);
+    background-image: url(/img/ground.png);
+}
 
+h1{
+    text-align: center;
 }
 
 .content{
